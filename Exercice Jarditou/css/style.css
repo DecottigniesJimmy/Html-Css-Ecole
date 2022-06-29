@@ -16,8 +16,8 @@ body {
 }
 
 ul li {
+        /* affichage en ligne */
     display: inline-block;
-    /* affichage en ligne */
     padding: 4px 8px;
 }
 

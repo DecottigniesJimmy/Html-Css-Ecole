@@ -1,0 +1,143 @@
+img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box1 {
+    background-color: rgb(224, 204, 204);
+    width: 35%;
+    height: 75px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+}
+
+.box2 {
+    background-color: white;
+    width: 65%;
+    height: 75px;
+    float: right;
+    border: solid;
+    border-width: 2px;
+    font-size: 100%;
+}
+
+.box3 {
+    background-color: yellow;
+    width: 30%;
+    height: 582px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+    font-size: 100%;
+}
+
+.box4 {
+    background-color: white;
+    width: 45%;
+    height: 582px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+    font-size: 100%;
+}
+
+.box5 {
+    background-color: blueviolet;
+    width: 25%;
+    height: 582px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+    font-size: 100%;
+}
+
+.box6 {
+    background-color: grey;
+    width: 25%;
+    height: 300px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+    font-size: 100%;
+}
+
+.box7 {
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+    height: 300px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+    font-size: 100%;
+}
+
+.box8 {
+    background-color: rgb(71, 92, 251);
+    width: 25%;
+    height: 300px;
+    float: left;
+    border: solid;
+    border-width: 2px;
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+.presentation {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#nom {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#bureau {
+    height: 100%;
+}
+
+.menu {
+    display: table-cell;
+    color: white;
+}
+
+a {
+
+    padding: 4px 8px;
+    
+}
+
+
+
+@media only screen and (max-width: 620px) {
+
+    /* For mobile phones: */
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8 {
+        width: 100%;
+    }
+}
