@@ -1,0 +1,6 @@
+https://www.w3schools.com/css/css_grid.asp
+
+.grid-container {
+  display: grid;
+grid-template-columns	Specifies the size of the columns, and how many columns in a grid layout
+}
